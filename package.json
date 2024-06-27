@@ -1,0 +1,34 @@
+{
+  "name": "proyecto",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-oauth/google": "^0.12.1",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.2",
+    "next": "14.2.2",
+    "next-auth": "^5.0.0-beta.17",
+    "react": "^18",
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "^18",
+    "react-hook-form": "^7.51.5",
+    "react-spring": "^9.7.3",
+    "styled-components": "^6.1.11",
+    "styled-jsx": "^5.1.6"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.2",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
